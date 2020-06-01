@@ -1,4 +1,5 @@
 require('dotenv/config');
+require('./database');
 const express = require('express');
 const chalk = require('chalk');
 const morgan = require('morgan');
