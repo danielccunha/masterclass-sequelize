@@ -16,4 +16,7 @@ routes.get('/users/:userId/techs', controllers.Tech.index);
 routes.post('/users/:userId/techs', controllers.Tech.store);
 routes.delete('/users/:userId/techs', controllers.Tech.delete);
 
+// Reports
+routes.get('/reports', controllers.Report.index);
+
 module.exports = routes;
